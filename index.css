@@ -1,29 +1,42 @@
 
 .navbar {
     background-image:url(img-news2/background-img.png);
-    height: 120px;
+    background-position: top;
+    position: relative;
+    height: 136px;
     font-size: 23px;
-    position: absolute;
-    top: 0px;
 }
-.navbar ul{
-    padding: 0;
+.container0{
+    height: 136px;
+    position: relative;
+    margin: 0px 89px;
+    padding-top: 36px;
+    align-items: center;
+    padding: 0px;
+}
+.container0 ul{
     list-style: none;
 }
-.navbar li{
+.container0 li{
     display: inline;
 }
-.navbar a{
+.container0 a{
     font-family: 'Oswald',Impact, 'Franklin Gothic ', 'Arial Narrow', sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     margin: 0px 15px;
+    padding-bottom: 25px;
+}
+.img-top{
+    margin-top: 20px;
 }
 .h1{
-    font-family: 'Oswald',Impact, 'Franklin Gothic ', 'Arial Narrow', sans-serif;
+    font-family: "Oswald, Impact, "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 48px;
     color: #3F3F3F;
-    font-weight: lighter;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 3.2px;
 }
 .box-1{
     display: inline;
@@ -56,10 +69,12 @@
 .image-1{
     height: 615px;
     width: 442.05px;
+    vertical-align: middle;
+    border-style: none;
 }
 .youtube-logo{
-    position: absolute;
-    bottom: -20px;
+    position: left;
+    bottom: 20px;
     right: 0;
     display: inline-block;
     padding-right: 1px;
@@ -92,7 +107,7 @@
 }
 .container2 {
     padding-left: 30px;
-    padding-right: 119px;
+    padding-right: 400px;
     position: relative;
     margin-bottom: 40px;
     box-sizing: border-box;
@@ -104,18 +119,36 @@
     line-height: 1.2;
 }
 .list iframe{
-    height: 442.05px;
-    width: 615px;
+    height: 430px;
+    width: 765px;
 }
 .firstnews{
     background-color: red;
-    color: white;
+    color: #FFFFFF;
     font-size: 30px;
     text-align: center;
+    padding: 5px 30px;
 }
 #main-footer{
     background-color: #000;
     color: #FFFFFF;
     text-align: center;
-    padding: 5px;
+    padding: 10px 0px;
+    font-family: "Lato", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 12px;
+}
+.box-4{
+    align-items: center;
+}
+.box-4 li{
+    display: inline;
+}
+.lolo{
+    color: #000
+}
+.box-4 a{
+    color: #eb0254;
+    background-color: transparent;
+    text-align: center;
+    line-height: 1.5;
 }
