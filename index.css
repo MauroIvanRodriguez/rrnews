@@ -3,18 +3,20 @@ h1{
     font-size: 48px;
     color: #3F3F3F;
     margin: 0px 0px 10px 0px;
-    font-weight: 100;
- 
+    font-weight: lighter;
 }
 .box-1{
     display: inline;
+}
+.box-1 h3{
     margin: 3px 0px;
     padding: 0px 0px 5px;
     font-size: 27px;
     color: #FFFFFF;
 }
-.box-1 li{
-    display :inline;
+.container{
+    width: 90%;
+    margin: auto;
 }
 .box-2{
     font-size: 12px;
@@ -44,19 +46,24 @@ h1{
 .p-2{
     font font-family: 'lato', Helvetica, Arial, sans-serif;
     font-size: 18px;
-    font-weight: 
     line-height: 1.444
     margin-top 0px;
     margin-bottom 16px;
 }
-
-.list{
-    font-size: 23.775px;
-    color: #3F3F3F;
+.list {
     margin-bottom: 80px;
     margin- top : 0px;
+}
+.list h4{
+    font-size: 23.775px;
+    color: #3F3F3F;
     font-weight: 700;
     line-height: 1.2
+}
+.list iframe{
+    height: 442.05px;
+    width: 615px;
+
 }
 .firstnews{
     background-color: red;
