@@ -13,7 +13,7 @@
     margin: 0px 50px;
     padding: 0px 5px 15px 60px;
     align-items: center;
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 .container0 ul{
     list-style: none;
@@ -55,8 +55,8 @@ h1{
     padding: 0px 0px 0px 0px;
 }
 .button {
-    background-color:tomato ;
-    color: white;
+    background-color: #FB4D3D;
+    color: #FFFFFF;
     padding: 4px 10px;
     margin: 0px 8px 0px 0px;
     font-weight: bold;
@@ -127,12 +127,15 @@ h1{
     width: 765px;
 }
 .firstnews{
-    background-color: red;
+    background-color: #008000;
     color: #FFFFFF;
     font-size: 30px;
     text-align: center;
     padding: 5px 30px;
-    margin: 0px 450px;
+    margin: 0px 450px 20px;
+}
+.firstnews:hover{
+    background-color: #FF0000;
 }
 #main-footer{
     background-color: #000;
