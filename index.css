@@ -30,7 +30,6 @@
 }
 .container{
     width: 90%;
-
     padding: 0px 0px;
 }
 h1{
@@ -97,6 +96,7 @@ h1{
 .p-2{
     font-family: 'lato', Helvetica, Arial, sans-serif;
     font-size: 18px;
+    color: #3f3f3f
     line-height: 1.444;
     margin-top: 0px;
     margin-bottom: 16px;
@@ -125,6 +125,17 @@ h1{
 .list iframe{
     height: 430px;
     width: 765px;
+}
+.list a{
+    text-decoration: none;
+    color: #0099ff;
+    font-size: 18px;
+    font-family: "Lato", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.list p{
+    color: #3F3F3F;
+    font-family: "Lato", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 18px;
 }
 .firstnews{
     background-color: #008000;
